@@ -1,1 +1,16 @@
 /* generics */
+
+.row>[class^="col"] {
+    background-color: #b4fac3;
+    min-height: 50px;
+}
+
+.row,
+.row>[class^="col"] {
+    border: 2px solid lightseagreen;
+}
+
+.col-6>.row>[class^="col"] {
+    background-color: #214e23;
+    padding: 15;
+}
