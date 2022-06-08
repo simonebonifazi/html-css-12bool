@@ -10,7 +10,6 @@
     border: 2px solid lightseagreen;
 }
 
-.col-6>.row>[class^="col"] {
+[class^="col"]>.row>[class^="col"] {
     background-color: #214e23;
-    padding: 15;
 }

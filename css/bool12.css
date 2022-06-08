@@ -156,7 +156,7 @@
 
 /***********************FLEXBOX************************************/
 
-
+/* justify content */
 .d-flex {
     display: flex;
 }
@@ -185,6 +185,7 @@
     justify-content: flex-end;
 }
 
+/* align items */
 
 .align-i-center {
     align-items: center;
@@ -206,6 +207,8 @@
 .align-i-end {
     align-items: flex-end;
 }
+
+/* align content */
 
 .align-c-between {
     align-content: space-between;
@@ -229,4 +232,26 @@
 
 .align-c-end {
     align-content: flex-end;
+}
+
+/* align self */
+.align-s-center {
+    align-self: center;
+}
+
+.align-s-start {
+    align-self: flex-start;
+}
+
+.align-s-end {
+    align-self: flex-end;
+}
+
+.align-s-stretch {
+    align-self: stretch;
+}
+
+
+.align-s-baseline {
+    align-self: baseline;
 }
